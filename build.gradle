@@ -24,7 +24,11 @@ repositories {
 }
 
 dependencies {
+<<<<<<< HEAD
     compile("com.github.ppedrycz:nohibernate-core:0.2")
+=======
+    compile("com.github.ppedrycz:nohibernate-core:0.1")
+>>>>>>> 25ea94e2e81caaf60b8a345c1003b304720049b3
 
     compile("org.springframework.boot:spring-boot-starter-data-jpa:${springBootVersion}")
     compile("org.springframework.boot:spring-boot-devtools:${springBootVersion}")
